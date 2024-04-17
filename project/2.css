@@ -1,0 +1,38 @@
+.ipl{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.daya{
+    display: flex;
+    gap: 50px;
+}
+button:hover{
+    background-color: aqua;
+    
+}
+button{
+    border-radius: 20px;
+    width: 100px;
+    border: 1px solid #ccc;
+    box-shadow:0 0 10px;
+}
+.team{
+    position:relative;
+    animation-name: match;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-direction: reverse;
+    
+
+}
+@keyframes match{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(200px);
+    }
+}
+
